@@ -23,6 +23,19 @@ a, a:visited {
 }
 
 
+/*nav 텍스트 hover효과*/
+.nav-list a:hover {
+    background-color: yellow;
+    text-decoration: 	none;
+}
+
+
+/*main.scss에 있던 불렛 무효화*/
+.nav-list li::before {
+   content: none;
+}
+
+
 /* WIDTH SETTING */
 .nav-hold {
     width: 95%;
