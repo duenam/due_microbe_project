@@ -1,0 +1,101 @@
+/*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }*/
+
+
+/*nav 관련 css*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+    margin:             0px;
+    padding:            0px;
+    list-style:         none;
+}
+
+
+a, a:visited {
+    text-decoration: 	none;
+}
+
+
+/* WIDTH SETTING */
+.nav-hold {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    width: 100%;
+    background: #fff;
+}
+
+.nav-hold {
+    overflow: hidden;
+}
+
+.nav-logo {
+    float: 		left;
+    display: 	block;
+    color: 		#000;
+    padding: 	30px 0px;
+    font-size: 18px;
+}
+
+.nav-list {
+    float: right;
+    margin: 20px 10px;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li a {
+    display: 	block;
+    padding: 	10px 10px;
+    color: 		#000;
+}
+
+.nav-menu {
+    color: 		#000;
+    float: 		right;
+    padding: 	30px 10px;
+    display: 	none;
+    cursor: 	pointer;
+}
+
+
+.nav_current {
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 700px) {
+    .nav-menu {
+        display: 	block;
+    }
+
+    .nav-list {
+        /*float: left;*/
+        width: 		100%;
+        height: 	0;
+    }
+
+    .nav-open {
+        height: auto;
+    }
+
+    .nav-list li {
+        width: 		100%;
+    }
+
+    .nav-list li a {
+        padding: 	10px 10px;
+    }
+
+}
