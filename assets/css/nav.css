@@ -27,6 +27,7 @@ a, a:visited {
 .nav-list a:hover {
     background-color: yellow;
     text-decoration: 	none;
+
 }
 
 
@@ -56,13 +57,14 @@ a, a:visited {
     float: 		left;
     display: 	block;
     color: 		#000;
-    padding: 	30px 0px;
+    padding: 	20px 0px;
     font-size: 18px;
 }
 
 .nav-list {
     float: right;
     margin: 20px 10px;
+    font-size: 16px;
 }
 
 .nav-list li {
@@ -71,7 +73,6 @@ a, a:visited {
 
 .nav-list li a {
     display: 	block;
-    padding: 	10px 10px;
     color: 		#000;
 }
 
@@ -107,8 +108,5 @@ a, a:visited {
         width: 		100%;
     }
 
-    .nav-list li a {
-        padding: 	10px 10px;
-    }
 
 }

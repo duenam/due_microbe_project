@@ -83,6 +83,20 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "blogs"
+    values:
+      layout:       "blog"
+
+
+#collection 추가하기
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:path/
+
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 gems:
